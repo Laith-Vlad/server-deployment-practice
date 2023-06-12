@@ -22,7 +22,7 @@ app.use(serverError);
 function handleHome(req, res) {
   res.status(200).json({
     code: 200,
-    message: 'Welcome to Home page',
+    message: 'Welcome to laith page',
     time: req.stamper
   })
 }
